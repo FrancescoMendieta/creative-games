@@ -1,0 +1,94 @@
+.footer {
+  display: flex;               /* Coloca los div en línea */
+  justify-content: space-around; /* Espacio entre ellos */
+  align-items: center;         /* Centra verticalmente */
+  background-color: #111;      /* Color de fondo */
+  color: white;                /* Texto en blanco */
+  position: fixed;             /* Fijado al fondo */
+  bottom: 0;                   /* Pegado abajo */
+  left: 0;
+  width: 100%;                 /* Que ocupe todo el ancho */
+  height: 150px;                /* Altura del footer */
+}
+
+.footer-box {
+  flex: 1;                     /* Cada div ocupa el mismo espacio */
+  text-align: center;          /* Centra el texto */
+  padding: 10px;
+}
+
+.nav{
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  width: 95%; height: 30px;
+  position: relative;
+  left: 30px;
+  
+}
+
+.portada{
+  text-align: center;
+}
+.header{
+  text-align: center;
+  background-color: red;
+}
+
+body{
+  background-color: red;
+}
+.acercade{
+  background-color: red;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 6px;
+   display: inline-block;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  
+}
+.categorias{
+  background-color: red;
+  text-decoration: none;
+  color: white;
+    position: relative;
+  top: 6px;
+    display: inline-block;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+}
+.contactanos{
+  background-color: red;
+  text-decoration: none;
+  color: white;
+    position: relative;
+  top: 6px;
+    display: inline-block;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+}
+.acercade:hover{
+ 
+ transform: scale(1.1); /* lo acerca un 10% */
+  z-index: 10; /* lo trae al frente por si se superpone */
+  position: relative; /* necesario para que z-index funcione */
+  
+}
+
+.categorias:hover{
+ 
+ transform: scale(1.1); /* lo acerca un 10% */
+  z-index: 10; /* lo trae al frente por si se superpone */
+  position: relative; /* necesario para que z-index funcione */
+  
+}
+
+.contactanos:hover{
+ 
+ transform: scale(1.1); /* lo acerca un 10% */
+  z-index: 10; /* lo trae al frente por si se superpone */
+  position: relative; /* necesario para que z-index funcione */
+  
+}
+
+
+
