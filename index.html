@@ -1,40 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/layout.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Games</title>
+  <link rel="stylesheet" href="css/layout.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <img class="portada" src="/img/3.png"  width="90%" height="300px" alt="">
-        <nav class="nav">
-         
-          <a  class=" acercade" href="/about.html" >acerca de</a> 
-           <a class="categorias" href="/categories.html">categorias</a>
-           <a class="contactanos" href="/contact.html">contactanos</a>
-        </nav>
-    </header>
-    
-    <footer class="footer">
-        <div class="footer-box">
-            
-         Numero:7598642 <br>
-            Direccion: Av. Villazon km5 <br>
-            Telefono: 44578959
-        </div>
-        <div class="footer-box">
-           <a href="https://www.facebook.com/"><img src="/img/fb.png" alt=""></a>
-           <a href="https://www.instagram.com/"><img src="/img/icons8-instagram-48.png" alt=""></a>
-           <a href="https://www.youtube.com/"><img src="/img/icons8-youtube-48.png" alt=""></a>
-           <a href="https://www.tiktok.com/es-419/"><img src="/img/icons8-tik-tok-50.png" alt=""></a>
-        </div>
-        <div class="footer-box">
-            copyright 2025
-            Bolivia - Cochabamba
-            Rodrigo Bustos
-        </div>
-    </footer>
+
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">Creative - Ga🎮es</div>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a class="acercade" href="/about.html">acerca de</a>
+        <a class="categorias" href="/categories.html">categorias</a>
+        <a class="contactanos" href="/contact.html">contactanos</a>
+      </div>
+    </nav>
+  </header>
+
+  <footer class="footer">
+    <div class="footer-box">
+      Numero: 7598642 <br>
+      Dirección: Av. Villazón km5 <br>
+      Teléfono: 44578959
+    </div>
+    <div class="footer-box">
+      <a href="https://www.facebook.com/"><img class="fb" src="/img/fb.png" alt=""></a>
+      <a href="https://www.instagram.com/"><img class="iconinstagram" src="/img/icons8-instagram-48.png" alt=""></a>
+      <a href="https://www.youtube.com/"><img class="iconyoutube" src="/img/icons8-youtube-48.png" alt=""></a>
+      <a href="https://www.tiktok.com/es-419/"><img class="icontiktok" src="/img/icons8-tik-tok-50.png" alt=""></a>
+    </div>
+    <div class="footer-box">
+      Rodrigo Bustos <br>
+      Cochabamba - Bolivia <br>
+      Copyright - 2025
+    </div>
+  </footer>
+
+  <script>
+    // JS para abrir/cerrar menú móvil
+    const toggle = document.getElementById('menu-toggle');
+    const links = document.getElementById('nav-links');
+
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('active');
+    });
+  </script>
+
 </body>
 </html>
