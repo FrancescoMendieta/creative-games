@@ -42,7 +42,7 @@ body {
 
 .nav a:hover {
   transform: scale(1.1);
-  color: #00ffcc;
+  color: red
 }
 
 

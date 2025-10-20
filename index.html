@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Creative Games</title>
+  <title>Creative - Ga🎮es</title>
   <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/carrusel.css">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -14,25 +15,41 @@
       <div class="logo">Creative - Ga🎮es</div>
       <button class="menu-toggle" id="menu-toggle">☰</button>
       <div class="nav-links" id="nav-links">
-        <a class="acercade" href="/about.html">acerca de</a>
-        <a class="categorias" href="/categories.html">categorias</a>
-        <a class="contactanos" href="/contact.html">contactanos</a>
+        <a class="acercade" href="#">acerca de</a>
+        <a class="categorias" href="#">categorías</a>
+        <a class="contactanos" href="#">contáctanos</a>
       </div>
     </nav>
   </header>
 
+  
+    <div class="slider-box">
+      <ul>
+        <li><img src="/img/3.png" width="300px" alt=""></li>
+        <li><img src="/img/carusel img 2.jpg" width="500px" alt=""></li>
+        <li><img src="/img/carrusel 3.jpg" width="300px" alt=""></li>
+      </ul>
+      
+    </div>
+
+
   <footer class="footer">
     <div class="footer-box">
-      Numero: 7598642 <br>
+      Número: 7598642 <br>
       Dirección: Av. Villazón km5 <br>
       Teléfono: 44578959
     </div>
+
     <div class="footer-box">
-      <a href="https://www.facebook.com/"><img class="fb" src="/img/fb.png" alt=""></a>
-      <a href="https://www.instagram.com/"><img class="iconinstagram" src="/img/icons8-instagram-48.png" alt=""></a>
-      <a href="https://www.youtube.com/"><img class="iconyoutube" src="/img/icons8-youtube-48.png" alt=""></a>
-      <a href="https://www.tiktok.com/es-419/"><img class="icontiktok" src="/img/icons8-tik-tok-50.png" alt=""></a>
+      <h2>Creative - Ga🎮es</h2>
+      <a href="https://www.facebook.com/"><img src="img/fb.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/"><img src="img/icons8-instagram-48.png" alt="Instagram"></a>
+      <a href="https://www.youtube.com/"><img src="img/icons8-youtube-48.png" alt="YouTube"></a>
+      <a href="https://www.tiktok.com/es-419/"><img src="img/icons8-tik-tok-50.png" alt="TikTok"></a>
     </div>
+
+
+
     <div class="footer-box">
       Rodrigo Bustos <br>
       Cochabamba - Bolivia <br>
@@ -40,15 +57,6 @@
     </div>
   </footer>
 
-  <script>
-    // JS para abrir/cerrar menú móvil
-    const toggle = document.getElementById('menu-toggle');
-    const links = document.getElementById('nav-links');
-
-    toggle.addEventListener('click', () => {
-      links.classList.toggle('active');
-    });
-  </script>
-
+  <script src="js/script.js"></script>
 </body>
 </html>
